@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="ventana" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx/2.2" fx:controller="prueba_ventanas.SecundariaController" stylesheets="/prueba_ventanas/styles.css">
+  <children>
+    <Label id="titulo" layoutX="217.0" layoutY="33.0" prefHeight="34.0" prefWidth="234.0" text="Segunda ventana" />
+    <HBox alignment="CENTER" layoutX="220.0" layoutY="159.0" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+      <children>
+        <Button fx:id="btn_volver" mnemonicParsing="false" onAction="#volver" text="Volver" />
+        <Button fx:id="btn_salir" mnemonicParsing="false" onAction="#salir" prefWidth="80.0" text="salir" />
+      </children>
+      <padding>
+        <Insets />
+      </padding>
+    </HBox>
+  </children>
+</AnchorPane>

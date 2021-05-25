@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="27.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx/2.2" fx:controller="prueba_ventanas.frameController">
+  <children>
+    <HBox alignment="TOP_CENTER" layoutX="1.0" layoutY="0.0" prefHeight="27.0" prefWidth="600.0" spacing="25.0" style="-fx-background-color: gray;">
+      <children>
+        <Label fx:id="label" minHeight="16.0" minWidth="69.0" text="PRUEBA VENTANAS" />
+        <Button fx:id="button" onAction="#handleButtonAction" text="SALIR" />
+      </children>
+      <padding>
+        <Insets top="5.0" />
+      </padding>
+    </HBox>
+  </children>
+</AnchorPane>

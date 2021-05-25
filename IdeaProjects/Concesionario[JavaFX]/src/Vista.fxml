@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="713.0" prefWidth="729.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Controller">
+   <children>
+      <SplitPane dividerPositions="0.7811810154525386" prefHeight="137.0" prefWidth="726.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="26.0" layoutY="26.0" prefHeight="82.0" prefWidth="510.0" text="CONCESIONARIO" textAlignment="CENTER" textFill="#ff0101" textOverrun="CLIP">
+                     <font>
+                        <Font name="Calibri" size="72.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="95.0" fitWidth="119.0" layoutX="12.0" layoutY="27.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@0cc4204c88694175095d6bda24efb714-vista-lateral-del-coche-de-la-ciudad-by-vexels.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <Separator blendMode="SRC_ATOP" prefHeight="41.0" prefWidth="722.0">
+         <effect>
+            <Reflection />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="W_RESIZE" />
+         </cursor>
+      </Separator>
+      <Pane prefHeight="92.0" prefWidth="586.0">
+         <children>
+            <Button fx:id="bsiguiente" layoutX="150.0" layoutY="12.0" mnemonicParsing="false" onAction="#btnmostrarregistros" prefHeight="69.0" prefWidth="136.0" text="Ver registros" />
+            <Button fx:id="bborrar" layoutX="286.0" layoutY="12.0" mnemonicParsing="false" onAction="#btnborrarregistro" prefHeight="69.0" prefWidth="136.0" text="Borrar registros" />
+            <Button fx:id="binsertar" layoutX="422.0" layoutY="12.0" mnemonicParsing="false" onAction="#btninsertarregistro" prefHeight="69.0" prefWidth="136.0" text="Insertar registros" />
+            <Button fx:id="blimpia" layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#btnlimpiar" prefHeight="69.0" prefWidth="136.0" text="Limpiar pantalla" />
+            <Button fx:id="bfichero" layoutX="558.0" layoutY="12.0" mnemonicParsing="false" onAction="#btnfichero" prefHeight="69.0" prefWidth="136.0" text="Cargar desde fichero" />
+         </children>
+      </Pane>
+      <HBox prefHeight="34.0" prefWidth="727.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="25.0" prefWidth="178.0" text="REGISTROS TOTALES:" textAlignment="CENTER" textFill="#12c0ff" textOverrun="CLIP">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="ttotal" editable="false" prefHeight="26.0" prefWidth="130.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="400.0" prefWidth="730.0">
+         <children>
+            <VBox prefHeight="338.0" prefWidth="260.0">
+               <children>
+                  <Label alignment="BOTTOM_LEFT" prefHeight="2.0" prefWidth="258.0" text="DATOS VEHÍCULO:" textAlignment="CENTER" textOverrun="CLIP">
+                     <font>
+                        <Font name="Calibri" size="33.0" />
+                     </font>
+                     <textFill>
+                        <RadialGradient centerX="0.37333331637912326" centerY="0.3282442748091603" radius="0.8317756831088913">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.14720000326633453" green="0.46000000834465027" blue="0.3732115626335144" opacity="0.4099999964237213" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                  </Label>
+                  <VBox prefHeight="284.0" prefWidth="504.0">
+                     <children>
+                        <Label prefHeight="38.0" prefWidth="122.0" text="Matricula:">
+                           <font>
+                              <Font name="Book Antiqua" size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tmatricula" prefHeight="35.0" prefWidth="213.0" />
+                        <Label prefHeight="38.0" prefWidth="122.0" text="Marca:">
+                           <font>
+                              <Font name="Book Antiqua" size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tmarca" prefHeight="35.0" prefWidth="213.0" />
+                        <Label prefHeight="38.0" prefWidth="122.0" text="Modelo:">
+                           <font>
+                              <Font name="Book Antiqua" size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tmodelo" prefHeight="35.0" prefWidth="213.0" />
+                        <Label prefHeight="38.0" prefWidth="122.0" text="Color:">
+                           <font>
+                              <Font name="Book Antiqua" size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tcolor" prefHeight="35.0" prefWidth="213.0" />
+                        <Label prefHeight="38.0" prefWidth="122.0" text="Año:">
+                           <font>
+                              <Font name="Book Antiqua" size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="tanio" prefHeight="35.0" prefWidth="260.0" />
+                     </children>
+                  </VBox>
+                  <Label prefHeight="38.0" prefWidth="122.0" text="Precio">
+                     <font>
+                        <Font name="Book Antiqua" size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tprecio" prefHeight="21.0" prefWidth="260.0" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

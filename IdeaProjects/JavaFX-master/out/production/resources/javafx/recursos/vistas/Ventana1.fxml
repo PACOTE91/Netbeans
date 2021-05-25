@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="243.0" prefWidth="397.0" spacing="30.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.comunicacionventanas.controladores.ControladorVentana1">
+   <children>
+      <Label text="Ventana 1">
+         <font>
+            <Font name="Ani" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="btSaluda" mnemonicParsing="false" onAction="#saluda" text="Saluda" />
+      <ComboBox fx:id="cbAcciones" onAction="#muestraEleccion" prefWidth="150.0" />
+   </children>
+</VBox>

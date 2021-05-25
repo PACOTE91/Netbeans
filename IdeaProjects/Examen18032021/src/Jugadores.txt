@@ -1,0 +1,4 @@
+Seleccion_Basket{nombre='Mark', apellidos='Gasol', edad=27} .Jugador_Basket{dorsal=2, puntos_anotados=140, rebotes=22, asistencias=12, puesto='Pivot'} 
+Seleccion_Basket{nombre='Ricky', apellidos='Rubio', edad=31} .Jugador_Basket{dorsal=9, puntos_anotados=120, rebotes=10, asistencias=14, puesto='Base'} 
+Seleccion_Basket{nombre='Rudy', apellidos='Fernández', edad=33} .Jugador_Basket{dorsal=10, puntos_anotados=115, rebotes=12, asistencias=11, puesto='Alero'} 
+Seleccion_Basket{nombre='Pau', apellidos='Gasol', edad=34} .Jugador_Basket{dorsal=7, puntos_anotados=200, rebotes=20, asistencias=12, puesto='Pivot'} 

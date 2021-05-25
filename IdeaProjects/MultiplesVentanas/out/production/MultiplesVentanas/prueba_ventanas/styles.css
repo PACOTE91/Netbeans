@@ -1,0 +1,38 @@
+/* 
+    Document   : styles
+    Created on : 10-01-2013, 02:21:54 PM
+    Author     : Carlos
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    -fx-display: block;
+}
+
+
+#ventana {
+    -fx-background-color: orange;
+}
+
+#main {
+    -fx-background-color: green;
+}
+
+#titulo {
+ -fx-text-fill:green;
+-fx-font-size:28px;
+-fx-alignment: top-center;
+-fx-text-alignment:center;
+}
+
+#titulo1{
+    -fx-text-fill:orange;
+    -fx-font-size:24px;
+}
+
+#btn_volver,#btn_salir {
+    -fx-font-size: 12px;
+    -fx-text-fill:sandybrown;
+    -fx-text-fill: black;
+}

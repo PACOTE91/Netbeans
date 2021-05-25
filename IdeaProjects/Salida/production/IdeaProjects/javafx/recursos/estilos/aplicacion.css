@@ -1,0 +1,20 @@
+.raiz {
+	-fx-base: #ffe4c4;
+	-fx-background-image: url('/javafx/recursos/imagenes/logo-ies3.png');
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+
+.button {
+	-fx-background-radius: 10;
+}
+
+#btAceptar {
+	-fx-font: 22 arial;
+	-fx-base: #b6e7c9;
+}
+
+#btCancelar, #btCerrar {
+	-fx-font: 20 arial;
+	-fx-base: #dc143c;
+}
